@@ -8,7 +8,7 @@ from langchain.chains import RetrievalQA
 import tempfile
 
 # Set your Gemini API key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyA6VAv7hwfpwW_AoJMko3AR9M5YPSJPcpE"
+os.environ["GOOGLE_API_KEY"] = "API KEY"
 
 # Streamlit UI Setup
 st.set_page_config(page_title="PDF Q&A App", layout="centered")
